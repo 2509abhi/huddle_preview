@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-image: url(images/bg-desktop.svg);
+      background-color: purple;
+      color: #fff;
+    }
+    a{
+      text-decoration-line: none;
+    }
+    .padding{
+      margin: 5rem 2rem;
+    }
+    .btn{
+      color: rgb(61, 11, 61);
+      background-color: #fff;
+      border-radius: 30px;
+      padding: 1rem;
+    }
+    .btn:hover{
+      color :#fff;
+      background-color: rgb(61, 11, 61);
+
+    }
+    .upcon{
+      display: flex;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color:black; }
+    .attribution a:hover { color: #fff; }
+    @media (max-width: 480px) {
+            body {
+                background-image: url(images/bg-mobile.svg);
+                background-color: red;
+            }
+            .upcon{
+              display: block;
+            }
+            .mock{
+              margin-left: 2rem;
+              height: 250px;
+            }
+            .padding{
+              text-align: center;
+              margin: 2rem 0;
+              padding: 0 2rem;
+            }
+            .btn{
+              margin: 4rem 10rem;
+              padding: 1rem 1rem;
+            }
+        }
+  </style>
+</head>
+<body>
+<main id=""body>
+  <img src="images/logo.svg" alt="logo">
+  <div class="upcon">
+    <img class="mock" src="images/illustration-mockups.svg" alt="mockup">
+  <div class="container">
+  <h1 class="padding">Build The Community Your Fans Will Love</h1>
+
+  <p class="padding">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion. </p>
+
+  <a  class="btn padding" href="#">Register</a>
+</div>
+</div>
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Abhishek Bansal</a>.
+    </p>
+  </footer>
+</body>
+</html>
